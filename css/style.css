@@ -1,0 +1,40 @@
+. {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100 vh;
+}
+
+.header {
+    border: 3px solid gray;
+    height: 25vh;
+}
+
+.nav {
+    border: 2px solid coral;
+    display: table;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 696px;
+    align-content: center;
+}
+
+.nav li {
+    float: left;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(33, 33, 33);
+}
+
+.nav li:hover {
+    background-color: rgba(33, 33, 33, 0.75);
+}
