@@ -1,0 +1,51 @@
+. {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(33, 33, 33, 0.4);
+}
+
+.header{
+    height: 25vh;
+    background-image: linear-gradient(white, gray);
+    box-shadow: 3px 3px gray;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    font-variant-caps: small-caps;
+    display: flex;
+    align-items: center;
+}
+
+.header p{
+    font-size: 3em;
+}
+ 
+.nav {
+    text-align: center;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px gray;
+    border-radius: 6px;
+    background-color: rgba(33, 33, 33, 0.5);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+
+.nav li:hover {
+    background-color: rgba(33, 33, 35, 0.75);
+    color: gray;
+    cursor: pointer;
+}
