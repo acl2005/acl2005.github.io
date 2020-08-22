@@ -5,36 +5,41 @@
 
 body {
     height: 100 vh;
+    background-color: rgba(33, 33, 33, 0.4);
 }
 
 .header {
-    border: 3px solid gray;
     height: 25vh;
+    background-image: linear-gradient(white, gray);
+    box-shadow: 3px 3px gray;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    font-variant-caps: small-caps;
+    text-align: left;
+    align-items: center;
 }
-
 .nav {
-    border: 2px solid coral;
-    display: table;
+    text-align: center;
+    height: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px gray;
+    border-radius: 6px;
+    background-color: rgba(33, 33, 33, 0.5);
 }
-
 .nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 696px;
-    align-content: center;
 }
 
 .nav li {
-    float: left;
     display: inline;
     color: white;
-    text-align: center;
     padding: 10px;
-    background-color: rgb(33, 33, 33);
 }
 
 .nav li:hover {
-    background-color: rgba(33, 33, 33, 0.75);
+    background-color: rgba(33, 33, 35, 0.75);
+    color: gray;
+    cursor: pointer;
 }
